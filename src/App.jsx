@@ -11,6 +11,7 @@ import { initReactI18next } from "react-i18next";
 import { Outlet } from "react-router-dom";
 import engTranslation from "./translations/en.json";
 import esTranslation from "./translations/es.json";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 i18n.use(initReactI18next).init({
   resources: {
