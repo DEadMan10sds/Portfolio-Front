@@ -2,5 +2,17 @@
   "title": "Ingeniero en Sistemas Inteligentes",
   "language_menu": "Es",
   "actual_job": "Actualidad - Bitcat Services",
-  "profile": "Soy un Ingeniero en Sistemas Inteligentes, centrado en desarrollo web backend y algoritmia, me apasiona la lógica de programación "
+  "profile": "Soy un Ingeniero en Sistemas Inteligentes, centrado en desarrollo web backend y algoritmia, me apasiona la lógica de programación ",
+  "aia": {
+    "role": "Líder de desarrollo Backend",
+    "date": "Junio 2022 - Septiembre 2023"
+  },
+  "cooperative_computing": {
+    "role": "Desarrollador Fullstack",
+    "date": "Septiembre 2023 - Mayo 2024"
+  },
+  "uaslp": {
+    "role": "Becario",
+    "date": "Enero 2023 - Junio 2023"
+  }
 }

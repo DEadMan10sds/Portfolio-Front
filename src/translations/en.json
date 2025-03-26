@@ -2,5 +2,17 @@
   "title": "Intelligent Systems Engineering",
   "language_menu": "Eng",
   "actual_job": "Today - Bitcat Services",
-  "profile": "This is my profile"
+  "profile": "This is my profile",
+  "aia": {
+    "role": "Backend leader",
+    "date": "June 2022 - September 2023"
+  },
+  "cooperative_computing": {
+    "role": "Fullstack Developer",
+    "date": "September 2023 - May 2024"
+  },
+  "uaslp": {
+    "role": "Intern",
+    "date": "January 2023 - June 2023"
+  }
 }

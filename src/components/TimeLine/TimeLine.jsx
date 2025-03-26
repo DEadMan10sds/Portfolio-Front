@@ -3,43 +3,63 @@ import { Timeline } from "antd";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
+const Job = ({ text, link }) => {
+  const { t } = useTranslation();
+  return (
+    <Link to={link}>
+      <p className="text-white decoration-indigo-500">{t(text)}</p>
+    </Link>
+  );
+};
+
+const Date = ({ date }) => {
+  const { t } = useTranslation();
+  return <p className="text-zinc-400">{t(date)}</p>;
+};
+
 const TimeLine = () => {
   const { t } = useTranslation();
 
   return (
     <Timeline
       mode="left"
-      pending={<Link to="/">{t("actual_job")}</Link>}
+      pending={<Job text="actual_job" link="/" />}
+      style={{
+        color: "white",
+      }}
       reverse
       items={[
         {
-          label: "Hola",
+          label: <Date date="aia.date" />,
           color: "green",
-          children: "Create a services site 2015-09-01",
-        },
-        {
-          color: "green",
-          children: "Create a services site 2015-09-01",
-        },
-        {
-          label: <Link to="/AIA">Este es un link</Link>,
-          color: "red",
           children: (
-            <>
-              <p>Solve initial network problems 1</p>
-              <p>Solve initial network problems 2</p>
-              <p>Solve initial network problems 3 2015-09-01</p>
-            </>
+            <Link to="/AIA">
+              <p className="text-white decoration-indigo-500">
+                AIA Partners - {t("aia.role")}
+              </p>
+            </Link>
           ),
         },
         {
-          label: "Hola",
+          label: <Date date="uaslp.date" />,
+          color: "green",
           children: (
-            <>
-              <p>Technical testing 1</p>
-              <p>Technical testing 2</p>
-              <p>Technical testing 3 2015-09-01</p>
-            </>
+            <Link to="/AIA">
+              <p className="text-white decoration-indigo-500">
+                UASLP - {t("uaslp.role")}
+              </p>
+            </Link>
+          ),
+        },
+        {
+          label: <Date date="cooperative_computing.date" />,
+          color: "green",
+          children: (
+            <Link to="/AIA">
+              <p className="text-white underline decoration-purple-600 decoration-2">
+                Cooperative Computing - {t("cooperative_computing.role")}
+              </p>
+            </Link>
           ),
         },
       ]}
