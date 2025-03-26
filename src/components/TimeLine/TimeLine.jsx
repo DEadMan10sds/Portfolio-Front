@@ -1,10 +1,11 @@
 import React from "react";
 import { Timeline } from "antd";
+import { Link } from "react-router-dom";
 
 const TimeLine = () => (
   <Timeline
     mode="left"
-    pending="Hoy"
+    pending={<Link to="/">Este es un link</Link>}
     reverse
     items={[
       {
@@ -17,7 +18,7 @@ const TimeLine = () => (
         children: "Create a services site 2015-09-01",
       },
       {
-        label: "Hola",
+        label: <Link to="/AIA">Este es un link</Link>,
         color: "red",
         children: (
           <>
