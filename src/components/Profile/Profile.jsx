@@ -6,13 +6,14 @@ export const Profile = () => {
 
   return (
     <Card
+      title={t("title")}
       variant="borderless"
       style={{
         margin: "0 0 4rem 0",
         backgroundColor: "#181d28f2",
       }}
     >
-      {t("title")}
+      {t("profile")}
     </Card>
   );
 };

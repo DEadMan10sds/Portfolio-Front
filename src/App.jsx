@@ -9,20 +9,16 @@ import { Certificates } from "./components/Carousel/Carousel";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import { Outlet } from "react-router-dom";
+import engTranslation from "./translations/en.json";
+import esTranslation from "./translations/es.json";
 
 i18n.use(initReactI18next).init({
   resources: {
     en: {
-      translation: {
-        title: "Hello there",
-        language_menu: "Eng",
-      },
+      translation: engTranslation,
     },
     es: {
-      translation: {
-        title: "Hola mundo",
-        language_menu: "Es",
-      },
+      translation: esTranslation,
     },
   },
   lng: "en",
