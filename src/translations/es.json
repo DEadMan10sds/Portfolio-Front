@@ -2,17 +2,73 @@
   "title": "Ingeniero en Sistemas Inteligentes",
   "language_menu": "Es",
   "actual_job": "Actualidad - Bitcat Services",
-  "profile": "Soy un Ingeniero en Sistemas Inteligentes, centrado en desarrollo web backend y algoritmia, me apasiona la lógica de programación ",
+  "profile": "Desarrollador Fullstack centrado en aplicaciones funcionales y escalables, apasionado por la optimización y patrones de diseño.",
+  "bitcat": {
+    "role": "Desarrollador Web Js",
+    "date": "Mayo 2024 - Actualidad",
+    "description": {
+      "main": "Desarrollador fullstack de aplicaciones web para industria 4.0 y uso interno.",
+      "responsabilities": [
+        "Despliegue de planta en sistemas web.",
+        "Desarrollo fullstack de sistemas web de trazabilidad.",
+        "Comunicación de servidores NodeJs con PLC's.",
+        "Despliegue de aplicaciones web.",
+        "Dockerización de aplicaciones",
+        "Desarrollo de aplicaciones web para electron."
+      ]
+    }
+  },
   "aia": {
     "role": "Líder de desarrollo Backend",
-    "date": "Junio 2022 - Septiembre 2023"
-  },
-  "cooperative_computing": {
-    "role": "Desarrollador Fullstack",
-    "date": "Septiembre 2023 - Mayo 2024"
+    "date": "Junio 2022 - Septiembre 2023",
+    "description": {
+      "main": "Encargado principal del mantenimiento, despliegue y desarrollo del backend desarrollado en NodeJs para una plataforma financiera.",
+      "responsabilities": [
+        "Implementación de “Replica sets”y transacciones para la base de datos del servidor.",
+        "Uso de “Cronjobs” para automatización de rutinas dentro del servidor.",
+        "Manejo de autenticación de lado del servidor para conceder permisos y distintos roles a los usuarios.",
+        "Encriptación de archivos y almacenamiento de imágenes local y externamente.",
+        "Capacitación de personal y desarrollo de documentación."
+      ]
+    }
   },
   "uaslp": {
     "role": "Becario",
-    "date": "Enero 2023 - Junio 2023"
+    "date": "Enero 2023 - Junio 2023",
+    "description": {
+      "main": "Soporte técnico",
+      "responsabilities": [
+        "Mantenimiento de laboratorios de area civil",
+        "Instalación de programas"
+      ]
+    }
+  },
+  "cooperative_computing": {
+    "role": "Desarrollador Fullstack",
+    "date": "Septiembre 2023 - Mayo 2024",
+    "description": {
+      "main": "Desarrollador fullstack para productos externos."
+    }
+  },
+  "pixel&byte": {
+    "role": "Servicio social",
+    "date": "Junio 2022 - Diciembre 2022",
+    "description": {
+      "main": "Conversor de imágenes DCOM a objetos JSON sin pérdida de datos para entrenamiento de IA.",
+      "responsabilities": [
+        "Conversor de buffers de imágenes DCOM a objetos JSON",
+        "Servidor de NodeJs con ejecución de scripts de python"
+      ]
+    }
+  },
+  "upslp": {
+    "role": "Desarrollador Freelance",
+    "date": "Noviembre 2021 - Marzo 2022",
+    "description": {
+      "main": "Desarrollo del videojuego “Brand Wars” para la “Semana Lag 2022” de la UPSLP usando “RPG Maker”.",
+      "responsabilities": [
+        "Desarrollo de scripts en JavaScript para correcto funcionamiento de UI e interacciones del usuario."
+      ]
+    }
   }
 }

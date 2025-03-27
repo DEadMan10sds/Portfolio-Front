@@ -2,17 +2,71 @@
   "title": "Intelligent Systems Engineering",
   "language_menu": "Eng",
   "actual_job": "Today - Bitcat Services",
-  "profile": "This is my profile",
+  "profile": "Fullstack developer focused on functional and scalable apps, pasionate for optimization and pattern design.",
+  "bitcat": {
+    "role": "Js web Developer",
+    "date": "May 2024 - Today",
+    "description": {
+      "main": "Fullstack web developer for industry 4.0 and internal use.",
+      "responsabilities": [
+        "Deployment on site for web applications.",
+        "Fullstack development for traceability systems.",
+        "Communication of Nodejs servers with PLC's.",
+        "Web application deployment.",
+        "Dockerization.",
+        "Electron web application development."
+      ]
+    }
+  },
   "aia": {
     "role": "Backend leader",
-    "date": "June 2022 - September 2023"
-  },
-  "cooperative_computing": {
-    "role": "Fullstack Developer",
-    "date": "September 2023 - May 2024"
+    "date": "June 2022 - September 2023",
+    "description": {
+      "main": "Main backend developer, maintainer and responsible for deployments of a Nodejs server for financial platform.",
+      "responsabilities": [
+        "'Replica sets' and transactions implementations for server database.",
+        "Usage of Cronjobs for routine automatization of server.",
+        "Server-side authentication managemet for roles and permisions.",
+        "Local and external encryptation for image and file management.",
+        "Documentation and training of financial platform."
+      ]
+    }
   },
   "uaslp": {
     "role": "Intern",
-    "date": "January 2023 - June 2023"
+    "date": "January 2023 - June 2023",
+    "description": {
+      "main": "Technical Support",
+      "responsabilities": [
+        "Civil Engineering computer laboratory maintenance",
+        "Program installation"
+      ]
+    }
+  },
+  "cooperative_computing": {
+    "role": "Fullstack Developer",
+    "date": "September 2023 - May 2024",
+    "description": {
+      "main": "Fullstack developer for external products"
+    }
+  },
+  "pixel&byte": {
+    "role": "Social Service",
+    "date": "June 2022 - December 2022",
+    "description": {
+      "main": "DCOM image to JSON conversor without data loss for AI training.",
+      "responsabilities": [
+        "Convert DCOM images buffers to JSON data.",
+        "NodeJs server that excecutes python scripts."
+      ]
+    }
+  },
+  "upslp": {
+    "role": "Freelance Developer",
+    "date": "November 2021 - March 2022",
+    "description": {
+      "main": "'Brand Wars' game developer for 'Semana lag 2022' of UPSLP with RPGMaker.",
+      "responsabilities": ["Javascript UI development."]
+    }
   }
 }

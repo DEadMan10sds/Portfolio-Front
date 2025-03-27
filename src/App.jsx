@@ -8,10 +8,10 @@ import { ProgrammingLanguages } from "./components/ProgrammingLanguages/Programm
 import { Certificates } from "./components/Carousel/Carousel";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import { Outlet } from "react-router-dom";
 import engTranslation from "./translations/en.json";
 import esTranslation from "./translations/es.json";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { Suspense } from "react";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -39,24 +39,9 @@ function App() {
         <div className="w-[80%] ">
           <Profile />
         </div>
-        <Row
-          style={{
-            width: "80%",
-          }}
-        >
-          <Col span={8}>
-            <TimeLine />
-          </Col>
-          <Col span={15}>
-            <Outlet />
-            {/* <ProgrammingLanguages /> */}
-          </Col>
-          {/* <Col span={8}>
-            <div className="max-w-full h-full">
-              <Certificates />
-            </div>
-          </Col> */}
-        </Row>
+        <Suspense fallback="loading">
+          <TimeLine />
+        </Suspense>
       </Flex>
       {/* <Footer></Footer> */}
     </ConfigProvider>
